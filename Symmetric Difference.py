@@ -1,0 +1,6 @@
+m = int(input())
+arr1 = set(input().split())
+n = int(input())
+arr2 = set(input().split())
+sym_difference =  arr1.symmetric_difference(arr2)
+print("\n".join(sorted(sym_difference, key = int)))
